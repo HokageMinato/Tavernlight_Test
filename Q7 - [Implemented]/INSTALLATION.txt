@@ -1,0 +1,4 @@
+-> Place the folder into the 'modules' in otclient.
+-> Log-in, in the topbar a green button named 'Q7 will appear.
+-> Click it, enjoy !
+-> Press 'ESC' to close the popup.

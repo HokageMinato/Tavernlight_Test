@@ -1,0 +1,8 @@
+Module
+  name:client_scrollingbuttonwindow
+  description:implementation of test question 7 for tavernlight games
+  author:Ronak Machchhar
+  sandboxed:true
+  scripts:[client_scrollingbuttonwindow.lua]
+  @onLoad: onModuleLoaded()
+  @onUnload: onModuleUnloaded()

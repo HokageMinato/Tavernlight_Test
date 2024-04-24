@@ -1,0 +1,13 @@
+ScrollingButtonWindow < MainWindow
+  id: scrollingbuttonwindow
+  !text: tr('Scroll Window')
+  size: 180 180
+  @onEscape: modules.client_scrollingbuttonwindow.closeWindow()
+  
+
+  Button
+    id: jumpButton
+    !text: tr('Jump!')
+    width: 60
+    height: 20
+    @onClick: modules.client_scrollingbuttonwindow.onJumpButtonClicked()
